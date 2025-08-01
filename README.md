@@ -3,6 +3,7 @@
 This project demonstrates essential UI interaction tests on Android using Appium. It covers basic gestures like swipe, scroll, long press, and button text verification on the API Demos app.
 
 ## Project Structure
+```
 AppiumBasicUITest/
 ├── README.md
 ├── .gitignore
@@ -20,7 +21,7 @@ AppiumBasicUITest/
 │ └── WifiSettingsTest.java
 └── resources/
 └── ApiDemos-debug.apk
-
+```
 
 - **BaseTest.java** — Sets up and tears down Appium server and Android driver, includes reusable methods for gestures like scroll and swipe.
 - **LongpressGestureTest.java** — Tests long press gesture and verifies context menu options.
