@@ -1,0 +1,17 @@
+# Java class files
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Maven
+target/
+
+# VS Code
+.vscode/
