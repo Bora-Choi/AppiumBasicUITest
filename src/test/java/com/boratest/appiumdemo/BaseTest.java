@@ -39,7 +39,7 @@ public class BaseTest {
     private static final int IMPLICIT_WAIT_SEC = 10;
     private static final int SERVER_TIMEOUT_SEC = 60;
     private static final String APPIUM_JS_PATH = "C:\\Users\\Bora\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
-    private static final String APP_PATH = System.getProperty("user.dir") + "/src/test/java/resources/ApiDemos-debug.apk";
+    private static final String APP_PATH = System.getProperty("user.dir") + "/src/test/resources/ApiDemos-debug.apk";
     private static final String SERVER_URL = "http://127.0.0.1:4723";
 
     @BeforeClass
