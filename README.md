@@ -8,19 +8,19 @@ AppiumBasicUITest/
 ├── README.md
 ├── .gitignore
 ├── src/
-│ └── test/
-│ └── java/
-│ └── com/
-│ └── boratest/
-│ └── appiumdemo/
-│ ├── BaseTest.java
-│ ├── LongpressGestureTest.java
-│ ├── ScrollGestureTest.java
-│ ├── SwipeGestureTest.java
-│ ├── ViewButtonTextTest.java
-│ └── WifiSettingsTest.java
-└── resources/
-└── ApiDemos-debug.apk
+│   └── test/
+│       ├── java/
+│       │   └── com/
+│       │       └── boratest/
+│       │           └── appiumdemo/
+│       │               ├── BaseTest.java
+│       │               ├── LongpressGestureTest.java
+│       │               ├── ScrollGestureTest.java
+│       │               ├── SwipeGestureTest.java
+│       │               ├── ViewButtonTextTest.java
+│       │               └── WifiSettingsTest.java
+│       └── resources/
+│           └── ApiDemos-debug.apk
 ```
 
 - **BaseTest.java** — Sets up and tears down Appium server and Android driver, includes reusable methods for gestures like scroll and swipe.
